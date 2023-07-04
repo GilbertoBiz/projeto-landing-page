@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    font-family: 'inter';
+}
+#logo{
+    margin-top: 80px;
+    margin-left: 80px;
+}
+#textodnc1{
+    margin-top: 90px;
+    margin-left: 120px;
+}
+#textodnc2{
+    margin-left: 120px;
+}
+#divdnc{
+    background-image: url(/imagens/FUNDO.svg);
+    color: aliceblue;
+    padding-bottom: 100px;
+}
+#tituloicone{
+    background-color: #EAECE5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+.icone{
+    margin-top: 50px;
+    margin-right: 0px;
+    margin-bottom: 50px;
+    margin-left: 100px;
+    padding: 15px;
+}
+.textoicone{
+    display: flex;
+    align-items: center;
+}
+#video{
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 40px;
+}
+#titulovideo{
+    color: #247BA0;
+    margin-right: 300px;
+    margin-top: 60px;
+}
+#secaovideo{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#carrossel{
+    background-color:  #247BA0;
+    padding: 50px;
+    text-align: center;
+}
+#menucarrossel{
+    font-size: 35px;
+    color: white; 
+}
+#divcards{
+    display: grid;
+    grid-auto-flow: column;
+    
+}
+.card{
+    margin-top: 40px;
+}
+#bruna{
+    margin-left: 250px;
+}
+#leonardo{
+    margin-left: 100px;
+}
+#samanta{
+    display: none;
+}
+#setaesquerda{
+    display: none;
+    margin-left: 100px;
+}
+.seta{
+    margin-top: 90px;
+    cursor: pointer;
+}
+#formulario{
+    font-size: 15px;
+    text-align: center;
+}
+#tituloformulario{   
+    margin: 30px;
+    color: #383838
+}
+input{
+   width: 250px;
+   height: 40px;
+   background-color: #EAECE5;
+   margin: 5px;
+   border: 0px;
+   border-radius: 5px;
+   padding-left: 10px;
+}
+button{
+    background-color: #247BA0;
+    width: 300px;
+    height: 50px;
+    color: #EAECE5;
+    border: 0px;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #259fd3;
+    color: white;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #0a1d25a1 ;
+    transition-duration: 0.5s;
+}
